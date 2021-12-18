@@ -1,0 +1,37 @@
+SECTION 1
+Visual Studio Code Overview
+1. Walkthrough vscode interface.
+2. Walkthrough recommended extensions.
+	i. Auto Rename Tag
+	ii. Better Comments
+	iii. Live Server
+	iv. One Dark Pro
+	v. Power Mode
+
+	
+SECTION 2
+Web Architecture
+1. Client (Frontend, Web browser)
+2. Server (Backend)
+3. Protocol
+
+
+SECTION 3
+HTML
+- Tags to be discussed
+	1. <!DOCTYPE html>
+	2. <html>
+	3. <head>
+	4. <title>
+	5. <body>
+	6. <h1>
+	7. <p>
+- Details
+	1. The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+	2. The <html> element is the root element of an HTML page
+	3. The <head> element contains meta information about the HTML page
+	4. The <title> element specifies a title for the HTML page (which is shown in the 		browser's title bar or in the page's tab)
+	5. The <body> element defines the document's body, and is a container for all the 		visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+	6. The <h1> element defines a large heading
+	7. The <p> element defines a paragraph
+
