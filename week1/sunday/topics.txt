@@ -63,3 +63,8 @@ More HTML Tags
 
 
 HTML Forms
+<form> (text, radio, checkbox, submit, button)
+<label for="element id">
+<input>
+<textarea>
+<select>, <option>, <optgroup>
