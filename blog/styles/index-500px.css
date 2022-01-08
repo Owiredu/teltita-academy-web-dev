@@ -1,0 +1,40 @@
+.navbar {
+    flex-direction: column;
+    text-align: center;
+}
+
+.content {
+    flex-direction: column;
+}
+
+.list-of-posts {
+    height: 150px;
+    max-width: 100%;
+    order: 1;
+    overflow-y: scroll;
+}
+
+.list-of-posts > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.list-of-posts > ul > li {
+    flex-grow: 1;
+    list-style: none;
+    padding: 5px;
+    margin: auto;
+}
+
+.blog-content {
+    order: 3;
+}
+
+.search-bar-with-links {
+    height: 50px;
+    max-width: 100%;
+    order: 2;
+}

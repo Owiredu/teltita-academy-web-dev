@@ -1,0 +1,36 @@
+CSS
+Styles:
+	0. <style> - Should be placed in the head of the html page.
+	0. a. Styling elements
+	1. font-size
+	2. font-family
+	3. color (rgb, hex, rgba, hsl, hsla)
+	4. text-align
+	5. background-color
+	6. background-image, background-repeat
+	7. Commenting your code
+	8. Styling using id and classes
+	9. border
+	10. opacity (transparency)
+	11. overflow, overflow-x, overflow-y (visible, hidden, scroll, auto)
+	12. text-decoration (none, overline, line-through, underline)
+	13. vertical-align (baseline, text-top, text-bottom, middle, sub, super)
+	14. text-transform (uppercase, lowercase, capitalize)
+	15. text-indent, letter-spacing, line-height, word-spacing, white-space (wrap, nowrap)
+	16. text-shadow (horizontal shadow, vertical shadow, blur effect, color)
+	17. display (none, inline, block, inline-block), visibility (hidden)
+	18. position (static, relative, fixed, absolute, sticky)
+	19. z-index
+	20. float (left, right, none, inherit)
+	21. display (flex), flex-direction (row, row-reverse, column, column-reverse), flex-wrap (wrap, wrap-reverse, nowrap),
+		flex-flow (flex-direction value, flex-wrap value), justify-content (flex-start, center, flex-end, space-around, space-between, stretch),
+		align-items (flex-start, center, flex-end, space-around, space-between, stretch), 
+		align-content (flex-start, center, flex-end, space-around, space-between, stretch)
+		NB: To perfectly center items in a container, set justify-content and align-items to center.
+More:
+	1. Inline styling using the style attribute
+	2. External stylesheets. eg. <link rel="stylesheet" href="file.css">
+	
+	
+
+

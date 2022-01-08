@@ -1,0 +1,118 @@
+/* Body */
+body {
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+/* Navigation bar and its contents */
+.navbar {
+    position: sticky;
+    top: 1px;
+    left: 1px;
+    z-index: 100;
+    background-color: black;
+}
+
+.navbar > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    margin: 0px;
+}
+
+.navbar > ul > li > a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar > ul > li > a:hover {
+    background-color: rgb(214, 214, 45);
+    color: black;
+}
+
+.navbar > div[id='nav-mobile-btn'] > span[id='compressed'] {
+    visibility: hidden;
+}
+
+.navbar > div[id='nav-mobile-btn'] > span[id='open'] {
+    visibility: hidden;
+}
+
+.navbar > div[id="nav-mobile-btn"] {
+    display: none;
+}
+
+/* Main content of the page */
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+/* List of posts and it contents */
+.list-of-posts {
+    background-color: white;
+    min-height: 300px;
+    height: auto;
+    flex-grow: 3;
+    max-width: 200px;
+    background-color: beige;
+}
+
+.list-of-posts > div[id='title-of-posts'] > span[id='compressed'] {
+    visibility: hidden;
+}
+
+.list-of-posts > div[id='title-of-posts'] > span[id='open'] {
+    visibility: hidden;
+}
+
+.list-of-posts > div[id='title-of-posts'] {
+    background-color: lightseagreen;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+}
+
+.list-of-posts > ul > li {
+    margin: 5px;
+}
+
+.list-of-posts > ul > li > a[class='post-link'] {
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+.list-of-posts > ul > li > a[class='post-link']:hover {
+    background-color: lightseagreen;
+    color: white;
+}
+
+/* Blog content */
+.blog-content {
+    background-color: yellow;
+    min-height: 300px;
+    height: auto;
+    flex-grow: 7;
+}
+
+/* Search bar and other links */
+.search-bar-with-links {
+    background-color: green;
+    min-height: 300px;
+    height: auto;
+    flex-grow: 3;
+    max-width: 200px;
+}
+
+/* footer */
+.footer {
+    background-color: orange;
+    height: 150px;
+}

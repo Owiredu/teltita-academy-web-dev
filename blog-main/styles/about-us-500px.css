@@ -1,0 +1,42 @@
+/* Navigation bar and its contents */
+.navbar {
+    flex-direction: column;
+    text-align: left;
+    height: 50px;
+    overflow-y: hidden;
+    -webkit-transition: height 1s;
+    transition: height 1s;
+}
+
+.navbar:hover {
+    height: 250px;
+}
+
+.navbar:active {
+    height: 250px;
+}
+
+.navbar > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar > ul > li {
+    padding: 15px;
+}
+
+.navbar > div[id='nav-mobile-btn'] > span[id='compressed'] {
+    visibility: visible;
+}
+
+.navbar > div[id='nav-mobile-btn'] > span[id='open'] {
+    visibility: hidden;
+}
+
+.navbar > div[id="nav-mobile-btn"] {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    height: 15px;
+}
