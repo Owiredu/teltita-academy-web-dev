@@ -9,35 +9,47 @@ body {
 
 /* Navigation bar and its contents */
 .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     position: sticky;
     top: 1px;
     left: 1px;
+    z-index: 100;
     background-color: black;
 }
 
-.navbar > a {
+.navbar > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    margin: 0px;
+}
+
+.navbar > ul > li > a {
     padding: 10px;
     color: white;
     text-decoration: none;
+    transition: all 1s;
 }
 
-.navbar > a:hover {
+.navbar > ul > li > a:hover {
     background-color: rgb(214, 214, 45);
     color: black;
+    font-size: x-large;
+}
+
+.navbar > div[id='nav-mobile-btn'] {
+    display: none;
 }
 
 /* Main content of the page */
 .content {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 
 /* List of posts and it contents */
 .list-of-posts {
-    background-color: white;
     min-height: 300px;
     height: auto;
     flex-grow: 3;
@@ -88,4 +100,10 @@ body {
 .footer {
     background-color: orange;
     height: 150px;
+    transition: all 2s;
+}
+
+.footer:hover {
+    position: relative;
+    top: 100px;
 }

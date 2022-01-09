@@ -1,12 +1,52 @@
+/* Navigation bar and its contents */
 .navbar {
     flex-direction: column;
     text-align: center;
+    height: 50px;
+    overflow: hidden;
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
 }
 
+.navbar:hover {
+    height: 250px;
+}
+
+.navbar:active {
+    height: 250px;
+}
+
+.navbar > div[id='nav-mobile-btn'] {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    height: 15px;
+}
+
+.navbar > div[id='nav-mobile-btn'] > span[id='compressed'] {
+    visibility: visible;
+}
+
+.navbar > div[id='nav-mobile-btn'] > span[id='open'] {
+    visibility: hidden;
+}
+
+.navbar > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar > ul > li {
+    padding: 15px;
+}
+
+/* Main content of the page */
 .content {
     flex-direction: column;
 }
 
+/* List of posts and it contents */
 .list-of-posts {
     height: 150px;
     max-width: 100%;
@@ -29,10 +69,12 @@
     margin: auto;
 }
 
+/* Blog content */
 .blog-content {
     order: 3;
 }
 
+/* Search bar and other links */
 .search-bar-with-links {
     height: 50px;
     max-width: 100%;
